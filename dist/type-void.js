@@ -28,3 +28,17 @@ function handleError(code, message) {
     // Generate a message
     throw new Error(`${message}. Code: ${code}`);
 }
+try {
+    handleError(404, "Not Found");
+}
+catch (e) {
+}
+function sumNumbers(limit) {
+    let sum = 0;
+    while (true) {
+        sum++;
+    }
+    // return sum;
+}
+sumNumbers(10);
+// clico infinito, programa nunca termina
