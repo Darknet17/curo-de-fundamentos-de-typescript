@@ -1,5 +1,5 @@
 "use strict";
-console.log("Hola Typescript con Platzi!");
+console.log("Hola Typescript!");
 // Tipo: Number
 // Explicito
 let phone;
