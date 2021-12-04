@@ -30,6 +30,11 @@ class Album {
     }
 }
 const album = new Album(1, 'Personal Picture');
-const picture = new Picture(1, 'Session Personal', PhotoOrientation.Landscape);
+const picture = new Picture(1, 'Session Personal', PhotoOrientation.Square);
 album.addPicture(picture);
+console.log('album', album);
+// Accediendo a los miembros publicos
+picture.id = 100; // public
+picture.title = 'Another title'; // public
+album.title = 'Personal Activities';
 console.log('album', album);
