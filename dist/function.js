@@ -1,5 +1,5 @@
 "use strict";
-// Crear una Fotografia
+Object.defineProperty(exports, "__esModule", { value: true });
 // Usamos TS, definimos tipos para parametros
 // function createPicture(title: string, date:string, size: SquareSize) {
 //     console.log('create Picture using', title, date, size);

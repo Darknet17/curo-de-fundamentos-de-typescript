@@ -1,3 +1,4 @@
+export {}
 console.log("Hola Typescript!");
 
 // Tipo: Number

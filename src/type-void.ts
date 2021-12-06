@@ -1,5 +1,5 @@
 // void
-
+export {}
 // Tipo explicito
 function showInfo(user: any):any {
     console.log("User Info", user.id, user.username, user.firstName);
